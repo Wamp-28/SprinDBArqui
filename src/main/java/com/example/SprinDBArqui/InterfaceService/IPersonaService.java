@@ -1,5 +1,4 @@
-package com.example.SprinDBArqui.IntService;
-
+package com.example.SprinDBArqui.InterfaceService;
 
 import com.example.SprinDBArqui.Model.Persona;
 
@@ -14,7 +13,7 @@ public interface IPersonaService {
 
     public Optional<Persona> listarId(int id);
 
-    public int guardar(Persona per);
+    public void guardar(Persona per);
 
     public void eliminar(int id);
 
